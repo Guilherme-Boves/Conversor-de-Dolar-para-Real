@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Imersão Dev Alura - Aula 1 </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Conversor de Moedas</h1>
+
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            </a>
+
+        </div>
+
+        <div class="imagem-cifrao">
+            
+            <h3>Descubra os valores em dólar US$</h3>
+            <img src="cifrao.png" class="cifrao" alt="logo-cifrao">
+            <img src="imersao-logo.png" class="page-logo" alt="">
+        </div>
+
+        <div class="card">
+            <div class="sub-header">Dólar para Real</div>
+            <input type="number" class="label-valor" id="valorDolar">
+            <input type="number" class="label-valor" readonly id="resp">
+            <button class="btn-convert" onclick="converter()">Converter</button>
+            <button class="btn-convert" onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+.header {
+    padding: 1px ;
+    background-color: rgb(49, 231, 171);   
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+.alura-logo {
+    width: 60px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+/* #42a65e */
+
+h3 {
+    margin-left: 42%;
+    display: block;
+    color: rgb(29, 155, 67);
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    float:left;
+    padding-top: 19px;
+    padding-right: 19px;
+    font-size: 23px;
+}
+
+.cifrao {  
+    width: 100px;
+    display: block;
+    margin-left: 57%;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.page-logo{
+    width: 7%;
+    margin-top: -20x;
+    margin-left: 48%;
+    border-radius: 10px;    
+}
+
+.card {
+    border: 2px solid rgb(49, 231, 171);   
+    padding: 25px;
+    border-radius: 10px; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+}
+
+.label-valor {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+input {
+    border-radius: 20px;
+    border: 2px solid rgb(49, 231, 171);
+    margin-top: 10px;
+    width: 25%;
+    padding: 7px;
+
+}
+
+.sub-header {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(29, 155, 67);
+}
+
+.btn-convert {
+    background-color: rgb(49, 231, 171);
+    border: solid rgb(49, 231, 171);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    width: 20%;
+    font-weight: bold;
+    font-family: 'Roboto Mono';
+    font-size: 20px;    
+}
+
+.btn-convert:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+    border: solid rgb(49, 231, 171);
+}
